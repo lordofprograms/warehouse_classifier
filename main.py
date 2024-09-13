@@ -28,7 +28,7 @@ async def health_check():
 
 
 @app.post("/predict", response_model=Dict[str, str])
-async def optimize_warehouses(request: TaskExecutionRequest):
+async def predict_warehouses(request: TaskExecutionRequest):
     if not request.executions:
         raise HTTPException(status_code=400, detail="No execution data provided")
 
