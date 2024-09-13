@@ -1,0 +1,18 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Virtual environment
+.env
+.venv/
+venv/
+
+# PyCharm
+.idea
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
